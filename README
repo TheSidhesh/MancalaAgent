@@ -22,10 +22,15 @@ Input to the program is of the following format:
 2         - Depth(for minimax and alpha beta only, greedy takes default depth 1)
 2 2 2 2   - Board state for player 2
 2 2 2 2   - Board state for player 1
-2       - No. of stones/marbles in player 2's Mancala
+2         - No. of stones/marbles in player 2's Mancala
 0         - No. of stones/marbles in player 1's Mancala
-			
 
+Output - 
+---------
+
+This program will give out two files:
+next_state - This contains the next best move
+traverse_log - This contains traversal path through the tree(only for minimax and alphabeta pruning)
 Implementation -
 ----------------
 
