@@ -1,0 +1,34 @@
+		 MANCALA GAME PLAYING AGENT 
+		-----------------------------
+
+What is it ?
+------------
+
+This is an AI agent which plays the game of Mancala. There are three functionalities - 
+
+1) Greedy Approach - Tells you the immediate best step 
+
+2) Minimax Approach - Tells you the next best step for a certain depth. Depth here is the total number of turns played. So if depth is 2, that means both players play 1 turn each.
+
+3) Alpha Beta Pruning - Does the above approach in a more efficient way(does not open all its children).
+
+Input -
+-------
+
+Input to the program is of the following format:
+
+1         - Task - #1 Greedy, #2 Minimax, #3 Alpha Beta
+1         - Your player(either 1 or 2)
+2         - Depth(for minimax and alpha beta only, greedy takes default depth 1)
+2 2 2 2   - Board state for player 2
+2 2 2 2   - Board state for player 1
+2       - No. of stones/marbles in player 2's Mancala
+0         - No. of stones/marbles in player 1's Mancala
+			
+
+Implementation -
+----------------
+
+Language Used - Java
+
+	
